@@ -1,0 +1,11 @@
+{
+  "name": "copytrading-api",
+  "version": "1.0.0t": "node server.js"
+  },
+  "dependencies": {"start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  }
+}

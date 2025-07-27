@@ -1,0 +1,33 @@
+const excors");
+const app = express();
+app.ors = require("cors");
+const app = express();
+app.use(express.json());
+app.use(cors());
+
+let tradeQueue = {};
+
+app.post("/api/trade", (req, res) => {
+      const { mentor_id, symbol, action, lot, price, sl, tp } = req.body;
+        if (!mentor_id || !symbol || !action || !lot) {
+                return res.status(400).json({ error: "Missing red]) tradeQueue[mentor_id] = []!tradeQueue[mentor_id]) tradeQueue[mentor_id] = [];
+                  tradeQuel, tp, time: Date.now() });
+                  
+                    resn, lot, price, sl, tp, time: Date.now() });
+                    
+                      res.rades", (req,: "received" });
+                      });
+                      
+                      app.get("/api/trades", (req, res) => {entor_id) return res.status(400).jsor_id;
+                        if (!mentor_id) return res.status(400).json({ error: "mentor_id required";
+                          tradeQueue[mades = tradeQueue[mentor_id] || [];
+                            tradeQueue[mentor_id] = e];
+                              res.json(trades);
+                              });
+                              
+                              const PORT = process.env.PORT || 3000;
+                              app.listen(PORT}`));
+                              > console.log(`Server running on port ${PORT}`));
+                              ]})})})
+        }
+})
